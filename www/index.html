@@ -32,38 +32,7 @@
 </head>
 <body>
   <div id="app">
-    <!-- Left panel with cover effect-->
-    <div class="panel panel-left panel-cover theme-dark panel-init">
-      <div class="view">
-        <div class="page">
-          <div class="navbar">
-            <div class="navbar-bg"></div>
-            <div class="navbar-inner">
-              <div class="title">Left Panel</div>
-            </div>
-          </div>
-          <div class="page-content">
-            <div class="block">Left panel content goes here</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Right panel with reveal effect-->
-    <div class="panel panel-right panel-reveal theme-dark">
-      <div class="view">
-        <div class="page">
-          <div class="navbar">
-            <div class="navbar-bg"></div>
-            <div class="navbar-inner">
-              <div class="title">Right Panel</div>
-            </div>
-          </div>
-          <div class="page-content">
-            <div class="block">Right panel content goes here</div>
-          </div>
-        </div>
-      </div>
-    </div>
+ 
     
     <!-- Views/Tabs container -->
     <div class="views tabs safe-areas">
@@ -87,100 +56,231 @@
           </a>
         </div>
       </div>
-
-      <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
       <div id="view-home" class="view view-main view-init tab tab-active">
         <div class="page" data-name="home">
-          <!-- Top Navbar -->
-          <div class="navbar navbar-large">
-            <div class="navbar-bg"></div>
-            <div class="navbar-inner">
-              <div class="left">
-                <a href="#" class="link icon-only panel-open" data-panel="left">
-                  <i class="icon f7-icons if-not-md">menu</i>
-                  <i class="icon material-icons if-md">menu</i>
-                </a>
-              </div>
-              <div class="title sliding">framework7-core-tab-view</div>
-              <div class="right">
-                <a href="#" class="link icon-only panel-open" data-panel="right">
-                  <i class="icon f7-icons if-not-md">menu</i>
-                  <i class="icon material-icons if-md">menu</i>
-                </a>
-              </div>
-              <div class="title-large">
-                <div class="title-large-text">framework7-core-tab-view</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Scrollable page content-->
-          <div class="page-content">
-            <div class="block block-strong">
-              <p>This is an example of tabs-layout application. The main point of such tabbed layout is that each tab contains independent view with its own routing and navigation.</p>
-
-              <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar like this tab.</p>
-            </div>
-            <div class="block-title">Navigation</div>
-            <div class="list">
-              <ul>
-                <li>
-                  <a href="/about/" class="item-content item-link">
-                    <div class="item-inner">
-                      <div class="item-title">About</div>
+            <!-- Top Navbar -->
+            <div class="navbar navbar-large">
+                <div class="navbar-bg"></div>
+                <div class="navbar-inner">
+                    <div class="title sliding">Multi Tool</div>
+                    <div class="title-large">
+                        <div class="title-large-text">Multi Tool</div>
                     </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="/form/" class="item-content item-link">
-                    <div class="item-inner">
-                      <div class="item-title">Form</div>
+                </div>
+            </div>
+    
+            <!-- Scrollable page content-->
+            <div class="page-content">
+                
+                <div class="block-title">Information</div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="/about/" class="item-content item-link">
+                                <div class="item-inner">
+                                    <div class="item-title">About</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/form/" class="item-content item-link">
+                                <div class="item-inner">
+                                    <div class="item-title">Credits</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="block-title">Socials</div>
+                <div class="block block-strong">
+                    <div class="row">
+                        <div class="col-50">
+                            <a href="#" class="button button-raised button-fill popup-open" data-popup="#my-popup">Discord Server (Of Creator, join to support)</a>
+                        </div>
+                        <div class="col-50">
+                            <a href="#" class="button button-raised button-fill login-screen-open" data-login-screen="#my-login-screen">Discord Server (Of Api Creator)</a>
+                        </div>
                     </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="block-title">Modals</div>
-            <div class="block block-strong">
-              <div class="row">
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill popup-open" data-popup="#my-popup">Popup</a>
                 </div>
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill login-screen-open" data-login-screen="#my-login-screen">Login Screen</a>
+    
+                <div class="block-title">Other Utilities</div>
+                <div class="block block-strong">
+                    <div class="row">
+                        <div class="col-50">
+                            <!-- The button to open the modal/popup -->
+                            <a href="#" class="button button-raised button-fill popup-open" data-popup="#app-code-popup">View App's Code</a>
+                        </div>
+                        <div class="col-50">
+                            <a href="#" class="button button-raised button-fill panel-open" data-panel="right">Signer</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-
-            <div class="block-title">Panels</div>
-            <div class="block block-strong">
-              <div class="row">
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill panel-open" data-panel="left">Left Panel</a>
+    
+                <div class="list links-list">
+                    <ul>
+                        <li>
+                            <a href="/dynamic-route/blog/45/post/125/?foo=bar#about">Dynamic (Component) Route</a>
+                        </li>
+                        <li>
+                            <a href="/load-something-that-doesnt-exist/">Default Route (404)</a>
+                        </li>
+                        <li>
+                            <a href="/request-and-load/user/123456/">Request Data & Load</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill panel-open" data-panel="right">Right Panel</a>
-                </div>
-              </div>
             </div>
-
-            <div class="list links-list">
-              <ul>
-                <li>
-                  <a href="/dynamic-route/blog/45/post/125/?foo=bar#about">Dynamic (Component) Route</a>
-                </li>
-                <li>
-                  <a href="/load-something-that-doesnt-exist/">Default Route (404)</a>
-                </li>
-                <li>
-                  <a href="/request-and-load/user/123456/">Request Data & Load</a>
-                </li>
-              </ul>
-            </div>
+        </div>
+    </div>
+<!-- Popup for "View App's Code" -->
+<div class="popup" id="app-code-popup">
+  <div class="view">
+    <!-- navbar-->
+    <div class="page">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+          <div class="title">View App Files</div>
+          <div class="right">
+            <a href="#" class="link popup-close">Close</a>
           </div>
         </div>
       </div>
+
+      <!-- Page content -->
+      <div class="page-content">
+        <!-- iOS Search Bar (Fixed) -->
+        <div class="block">
+          <div class="searchbar searchbar-init ios-searchbar" data-searchin=".list" data-disable-search-onfocus="true">
+            <div class="searchbar-input-wrap">
+              <input type="search" placeholder="Search for files..." id="search-file" />
+              <i class="searchbar-clear-icon"></i>
+            </div>
+            <i class="searchbar-disable-icon"></i>
+          </div>
+        </div>
+
+        <!-- Framework7 Button for IPA file input (Using <input> directly) -->
+        <div class="block">
+          <label for="ipa-file-input" class="button button-fill">
+            <i class="icon f7-icons">arrow_up_circle_fill</i> Select IPA File
+          </label>
+          <input type="file" id="ipa-file-input" style="display: none;" accept=".ipa" class="ios-only" />
+        </div>
+
+        <!-- Container to display file paths from the .app folder -->
+        <div id="file-paths-container" class="block"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fullscreen code viewer (raw HTML) -->
+<div id="fullscreen-code-viewer" style="display: none; z-index: 9999; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.95); overflow-y: auto;">
+  <div style="position: absolute; top: 10px; left: 10px; background-color: rgba(0, 0, 0, 0.7); padding: 10px; color: white; cursor: pointer;">
+    <a href="#" onclick="goBack()" style="color: white;">Back</a>
+  </div>
+  <pre id="file-content" style="font-family: monospace; white-space: pre-wrap; word-wrap: break-word; padding: 20px; background-color: white; color: black; height: 100vh;"></pre>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+<script>
+  let fileList = [];
+
+  // Handle IPA file selection and extract .app folder file paths
+  document.getElementById('ipa-file-input').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file && file.name.endsWith('.ipa')) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const zip = new JSZip();
+        zip.loadAsync(e.target.result).then(function(contents) {
+          let appFolder = null;
+          // Find the .app folder inside the IPA
+          Object.keys(contents.files).forEach(function(filename) {
+            if (filename.endsWith('.app/')) {
+              appFolder = filename;
+            }
+          });
+
+          if (appFolder) {
+            // If .app folder exists, list all file paths inside
+            fileList = [];
+            let filePathsHtml = '<h3>Files inside .app folder:</h3><ul class="list">';
+            Object.keys(contents.files).forEach(function(filename) {
+              if (filename.startsWith(appFolder)) {
+                fileList.push(filename);
+                filePathsHtml += `<li><a href="#" class="file-link" data-filename="${filename}">${filename}</a></li>`;
+              }
+            });
+            filePathsHtml += '</ul>';
+            document.getElementById('file-paths-container').innerHTML = filePathsHtml;
+
+            // Add event listener for each file link
+            document.querySelectorAll('.file-link').forEach(function(link) {
+              link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const fileName = link.getAttribute('data-filename');
+                viewFile(fileName, contents);
+              });
+            });
+          } else {
+            document.getElementById('file-paths-container').innerHTML = '<p>No .app folder found in this IPA.</p>';
+          }
+        });
+      };
+      reader.readAsArrayBuffer(file);
+    } else {
+      alert('Please choose a valid IPA file.');
+    }
+  });
+
+  // Function to view the contents of a file
+  function viewFile(fileName, zipContents) {
+    const file = zipContents.files[fileName];
+    if (file) {
+      file.async('text').then(function(fileContent) {
+        // Show the file content in the fullscreen viewer
+        document.getElementById('file-content').textContent = fileContent;
+        document.getElementById('fullscreen-code-viewer').style.display = 'block';
+        document.getElementById('app-code-popup').style.display = 'none'; // Hide the popup
+      });
+    }
+  }
+
+  // Function to go back to the file list
+  function goBack() {
+    document.getElementById('fullscreen-code-viewer').style.display = 'none';
+    document.getElementById('app-code-popup').style.display = 'block'; // Show the file list popup
+  }
+
+  // Search functionality to filter files by name
+  document.getElementById('search-file').addEventListener('input', function() {
+    const query = this.value.toLowerCase();
+    const filteredFiles = fileList.filter(function(filename) {
+      return filename.toLowerCase().includes(query);
+    });
+
+    let filePathsHtml = '<h3>Files inside .app folder:</h3><ul class="list">';
+    filteredFiles.forEach(function(filename) {
+      filePathsHtml += `<li><a href="#" class="file-link" data-filename="${filename}">${filename}</a></li>`;
+    });
+    filePathsHtml += '</ul>';
+    document.getElementById('file-paths-container').innerHTML = filePathsHtml;
+
+    // Re-attach the click event listeners for filtered links
+    document.querySelectorAll('.file-link').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const fileName = link.getAttribute('data-filename');
+        viewFile(fileName, zipContents);
+      });
+    });
+  });
+</script>
+
 
       <!-- Catalog View -->
       <div id="view-catalog" class="view view-init tab" data-name="catalog" data-url="/catalog/">
