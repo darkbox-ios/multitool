@@ -28,26 +28,16 @@ An iOS Multi Tool for Developers made partly with AI for the utilities!
 - 📝 Certificate Info Viewing
 - 🔄 Repo Adding (by https://minoa.cat/)
 - 🏷️ File Explainer
-
-
-## Contributing
-
-Contributions are welcome! Here's how you can contribute:
-
-1. **Fork** the repository on GitHub
-2. **Clone** your fork to your local machine
-3. **Create a branch** for your feature or bugfix
-4. **Commit** your changes
-5. **Push** your branch to your fork
-6. Submit a **Pull Request** to the main repository
+- And More Of Course!
 
 ### Guidelines
 
-- Write descriptive commit messages
+- Do not use this tool to do bad things.
+- No contributions or modifications are allowed without explicit permission from the author.
 
 ## License
 
-This project is licensed under no license.
+This project is licensed under no license which means no contributions or modifications are allowed without explicit permission from the author
 
 ---
 
