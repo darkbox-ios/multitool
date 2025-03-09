@@ -1,58 +1,54 @@
-# framework7-core-tab-view
+# Reddit Saved Downloader
 
-## Framework7 CLI Options
+[![GitHub](https://img.shields.io/github/license/M1noa/reddit-saved-downloader)](https://github.com/M1noa/reddit-saved-downloader)
+[![GitHub stars](https://img.shields.io/github/stars/M1noa/reddit-saved-downloader)](https://github.com/M1noa/reddit-saved-downloader/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/M1noa/reddit-saved-downloader)](https://github.com/M1noa/reddit-saved-downloader/issues)
 
-Framework7 app created with following options:
+An iOS Multi Tool for Developers!
 
-```
-{
-  "cwd": "/Users/asial/Documents/framework7-core-tab-view",
-  "type": [
-    "web"
-  ],
-  "name": "framework7-core-tab-view",
-  "framework": "core",
-  "template": "tabs",
-  "bundler": false,
-  "theming": {
-    "customColor": false,
-    "color": "#007aff",
-    "darkTheme": false,
-    "iconFonts": true,
-    "fillBars": false
-  },
-  "customBuild": false
-}
-```
 
-## NPM Scripts
 
-* 🔥 `start` - run development server
-* 🔧 `serve` - run development server
-## Assets
+## Installation
 
-Assets (icons, splash screens) source images located in `assets-src` folder. To generate your own icons and splash screen images, you will need to replace all assets in this directory with your own images (pay attention to image size and format), and run the following command in the project directory:
+1. Get the App URL by placing "/www/index.html/" at the end of the URL
+2. Click the share icon > Add to Homescreen
+3. Open the PWA
 
-```
-framework7 assets
+### Prerequisites
+
+- A Browser
+- Mobileprovision/p12/ipas or whatever you need for the utility inside the app.
+
+
+
+### Features
+- 🚀 App File Viewing
+- 📊 UDID Certificate Registration Check (Nabzclan Api)
+- 🎨 iPA Signing
+- 📝 Certificate Info Viewing
+- 🔄 Repo Adding (by https://minoa.cat/)
+- 🏷️ File Explainer
 ```
 
-Or launch UI where you will be able to change icons and splash screens:
+## Contributing
 
-```
-framework7 assets --ui
-```
+Contributions are welcome! Here's how you can contribute:
 
-## Documentation & Resources
+1. **Fork** the repository on GitHub
+2. **Clone** your fork to your local machine
+3. **Create a branch** for your feature or bugfix
+4. **Commit** your changes
+5. **Push** your branch to your fork
+6. Submit a **Pull Request** to the main repository
 
-* [Framework7 Core Documentation](https://framework7.io/docs/)
+### Guidelines
 
+- Write descriptive commit messages
 
+## License
 
-* [Framework7 Icons Reference](https://framework7.io/icons/)
-* [Community Forum](https://forum.framework7.io)
+This project is licensed under no license.
 
-## Support Framework7
+---
 
-Love Framework7? Support project by donating or pledging on patreon:
-https://patreon.com/vladimirkharlampidi
+[```made with <3 by serenity```](https://discord.gg/invite/ZT6pWhT2u5)
