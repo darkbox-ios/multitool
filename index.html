@@ -72,7 +72,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             overflow-y: auto;
-            height: 300px;
+            height: auto;
         }
 
         pre {
@@ -88,6 +88,20 @@
             padding: 3px 5px;
             border-radius: 3px;
         }
+
+        hr {
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+
+        h2, h3 {
+            color: #444;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -102,73 +116,48 @@
     </div>
 
     <div class="markdown-container" id="markdown-content">
-        <!-- The README will be rendered here -->
+        <h1 id="ios-multitool">iOS Multitool</h1>
+        <p>Join our Discord <a href="https://discord.gg/ZT6pWhT2u5" target="_blank">https://discord.gg/ZT6pWhT2u5</a></p>
+        <p>An iOS Multi Tool for Developers made partly with AI for the utilities!</p>
+        <h2 id="installation">Installation</h2>
+        <ol>
+            <li>Open the Linked Website from this Repository.</li>
+            <li>Click the Download Button.</li>
+            <li>Install the Profile in settings after allowing it</li>
+        </ol>
+        <p>Manually:</p>
+        <ol>
+            <li>Get the App URL by placing "/www/index.html/" at the end of the URL</li>
+            <li>Click the share icon &gt; Add to Homescreen</li>
+            <li>Open the PWA</li>
+        </ol>
+        <h3 id="prerequisites">Prerequisites</h3>
+        <ul>
+            <li>A Browser</li>
+            <li>Mobileprovision/p12/ipas or whatever you need for the utility inside the app.</li>
+        </ul>
+        <h3 id="features">Features</h3>
+        <ul>
+            <li>🚀 App File Viewing</li>
+            <li>📊 UDID Certificate Registration Check (Nabzclan Api)</li>
+            <li>🎨 iPA Signing</li>
+            <li>📝 Certificate Info Viewing</li>
+            <li>🔄 Repo Adding (by <a href="https://minoa.cat/" target="_blank">https://minoa.cat/</a>)</li>
+            <li>🏷️ File Explainer</li>
+            <li>And More Of Course!</li>
+        </ul>
+        <h3 id="guidelines">Guidelines</h3>
+        <ul>
+            <li>Do not use this tool to do bad things.</li>
+            <li>No contributions or modifications are allowed without explicit permission from the author.</li>
+        </ul>
+        <h2 id="license">License</h2>
+        <p>This project is licensed under no license which means no contributions or modifications are allowed without explicit permission from the author</p>
+        <hr>
+        <p><a href="https://discord.gg/invite/ZT6pWhT2u5" target="_blank"><code>made with &lt;3 by serenity</code></a></p>
     </div>
-
-    <!-- Include Marked.js from CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-    <script>
-        // Paste your README Markdown content here
-        const markdownContent = `
-# iOS Multitool
-
-Join our Discord https://discord.gg/ZT6pWhT2u5 
-
-
-
-An iOS Multi Tool for Developers made partly with AI for the utilities!
-
-
-
-## Installation
-
-1. Open the Linked Website from this Repository.
-2. Click the Download Button.
-3. Install the Profile in settings after allowing it
-
-Manually:
-
-1. Get the App URL by placing "/www/index.html/" at the end of the URL
-2. Click the share icon > Add to Homescreen
-3. Open the PWA
-
-### Prerequisites
-
-- A Browser
-- Mobileprovision/p12/ipas or whatever you need for the utility inside the app.
-
-
-
-### Features
-- 🚀 App File Viewing
-- 📊 UDID Certificate Registration Check (Nabzclan Api)
-- 🎨 iPA Signing
-- 📝 Certificate Info Viewing
-- 🔄 Repo Adding (by https://minoa.cat/)
-- 🏷️ File Explainer
-- And More Of Course!
-
-### Guidelines
-
-- Do not use this tool to do bad things.
-- No contributions or modifications are allowed without explicit permission from the author.
-
-## License
-
-This project is licensed under no license which means no contributions or modifications are allowed without explicit permission from the author
-
----
-
-[```made with <3 by serenity```](https://discord.gg/invite/ZT6pWhT2u5)
-
-`;
-
-        // Render the markdown to HTML using Marked.js
-        const html = marked(markdownContent);
-        document.getElementById('markdown-content').innerHTML = html;
-    </script>
 
 </body>
 </html>
+
 
