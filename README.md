@@ -1,10 +1,10 @@
-# Reddit Saved Downloader
+# iOS Multitool
 
 [![GitHub](https://img.shields.io/github/license/M1noa/reddit-saved-downloader)](https://github.com/M1noa/reddit-saved-downloader)
 [![GitHub stars](https://img.shields.io/github/stars/M1noa/reddit-saved-downloader)](https://github.com/M1noa/reddit-saved-downloader/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/M1noa/reddit-saved-downloader)](https://github.com/M1noa/reddit-saved-downloader/issues)
 
-An iOS Multi Tool for Developers!
+An iOS Multi Tool for Developers made partly with AI for the utilities!
 
 
 
