@@ -1,14 +1,20 @@
 # iOS Multitool
 
-[![GitHub](https://img.shields.io/github/license/M1noa/reddit-saved-downloader)](https://github.com/M1noa/reddit-saved-downloader)
-[![GitHub stars](https://img.shields.io/github/stars/M1noa/reddit-saved-downloader)](https://github.com/M1noa/reddit-saved-downloader/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/M1noa/reddit-saved-downloader)](https://github.com/M1noa/reddit-saved-downloader/issues)
+Join our Discord https://discord.gg/ZT6pWhT2u5 
+
+
 
 An iOS Multi Tool for Developers made partly with AI for the utilities!
 
 
 
 ## Installation
+
+1. Open the Linked Website from this Repository.
+2. Click the Download Button.
+3. Install the Profile in settings after allowing it
+
+Manually:
 
 1. Get the App URL by placing "/www/index.html/" at the end of the URL
 2. Click the share icon > Add to Homescreen
